@@ -1,4 +1,4 @@
-"""Primera entrega: detección de personas en una imagen, sin persistencia."""
+"""API para detectar y contar personas en imágenes."""
 import io
 from contextlib import asynccontextmanager
 from threading import Lock
@@ -23,7 +23,7 @@ async def lifespan(app):
     yield
 
 
-app = FastAPI(title='Sistema Aforo · Primera entrega', version='1.0.0', lifespan=lifespan)
+app = FastAPI(title='Sistema Aforo', version='1.0.0', lifespan=lifespan)
 
 
 class LimitarCuerpo:
