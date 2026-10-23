@@ -1,0 +1,17 @@
+{
+  "name": "sistema-aforo-v1-servidor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.0"
+  }
+}

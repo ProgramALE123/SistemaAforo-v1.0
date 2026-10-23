@@ -1,0 +1,6 @@
+# Instalar antes PyTorch CPU siguiendo README.md.
+ultralytics==8.4.182
+fastapi==0.148.0
+uvicorn==0.54.0
+python-multipart==0.0.32
+Pillow==12.3.0

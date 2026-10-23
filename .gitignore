@@ -1,0 +1,12 @@
+node_modules
+.venv
+.runtime/
+__pycache__/
+.pytest_cache/
+cliente/dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.vscode/
